@@ -1,0 +1,22 @@
+//Задание 3:
+//Напишите программу на языке Java, которая преобразует вес, заданный в
+//фунтах, в килограммы, но выводит раздельно количество полученных
+//килограмм и грамм (в 1 фунте 453,6 грамм).
+
+package com.company;
+
+import java.util.Scanner;
+
+public class Hometask2p3 {
+    public static void main(String[] args){
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Input weight in pounds: ");
+        double p = scan.nextDouble();
+        double wt = p * 0.4536;
+        double gr = (wt - (int) wt) * 1000;
+        System.out.println("Weight in kilograms: " + (int) wt + " kg " + (int) gr + " grs");
+
+
+
+    }
+}
