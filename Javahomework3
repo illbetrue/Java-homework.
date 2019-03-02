@@ -1,0 +1,74 @@
+package com.company;
+import java.util.Scanner;
+
+public class Hometask3 {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int choice;
+        char c1 = '*';
+        Character  c;
+        System.out.println("Enter number of the figure: ");
+        choice = sc.nextInt();
+        System.out.println("Which character do you want to use: ");
+        c = sc.next().charAt(0);
+
+
+        switch(choice){
+            case 1:
+                System.out.println("*");
+                System.out.println("* *");
+                System.out.println("* * *");
+                System.out.println("* * * *");
+                System.out.println("* * * * *");
+                System.out.println("* * * *");
+                System.out.println("* * *");
+                System.out.println("* *");
+                System.out.println("*");
+            break;
+            case 2:
+                System.out.println("*  *  *  *  *");
+                System.out.println(" *          *");
+                System.out.println("   *        *");
+                System.out.println("     *      *");
+                System.out.println("       *    *");
+                System.out.println("         *  *");
+                System.out.println("            *");
+                break;
+            case 3:
+                System.out.println("        *");
+                System.out.println("      * *");
+                System.out.println("    * * *");
+                System.out.println("  * * * *");
+                System.out.println("* * * * *");
+                break;
+            case 4:
+                System.out.println("        *");
+                System.out.println("      * *");
+                System.out.println("    * * *");
+                System.out.println("  * * * *");
+                System.out.println("* * * * *");
+                System.out.println("  * * * *");
+                System.out.println("    * * *");
+                System.out.println("      * *");
+                System.out.println("        *");
+                break;
+            case 5:
+                System.out.println("         *");
+                System.out.println("        * *");
+                System.out.println("      * * * *");
+                System.out.println("    * * * * * *");
+                System.out.println("  * * * * * * * *");
+                System.out.println("* * * * * * * * * *");
+                System.out.println("         *");
+                System.out.println("        * *");
+                System.out.println("      * * * *");
+                System.out.println("    * * * * * *");
+                System.out.println("  * * * * * * * *");
+                System.out.println("* * * * * * * * * *");
+                break;
+
+
+
+        }
+    }
+}
