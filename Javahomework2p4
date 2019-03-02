@@ -1,0 +1,28 @@
+//Задание 4:
+//Напишите программу на языке Java, которая вычисляет и выводит в
+//консоль сумму прибыли по заданному депозиту (например, 10000) на заданное
+//количество месяцев (например, 6) под указанный процент годовых (например,
+//12%).
+
+
+package com.company;
+import java.util.Scanner;
+
+public class Hometask2p4 {
+    public static void main(String [] args){
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.print("Enter the sum of the money you want to put on deposit: ");
+        double money = sc.nextInt();
+        
+        System.out.print("How many months:? ");
+        int month = sc.nextInt();
+        
+        System.out.print("Percents: ");
+        int percents = sc.nextInt();
+        
+        double growth = (money / 100 * percents) / 12 * month;
+        System.out.println("If you put "+(int)money+" hryvnia for "+ month+" month "+" by  "
+                + percents+" %\n "+"Then" + " you will get " + (int)growth  + " hryvnia");
+    }
+}
