@@ -7,7 +7,7 @@ public class Hometask4p1{
         Scanner sc = new Scanner (System.in);
         String element = "";
 
-        System.out.println("Input some unique string: ");
+        System.out.println("Input some string: ");
         element = sc.nextLine();
 
         uniqueCharacters(element);
