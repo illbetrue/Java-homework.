@@ -9,7 +9,7 @@ public class Hometask5p1{
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Input quantity of elements: " );
-        int num = s.nextInt();
+        int num = sc.nextInt();
 
         int a[] = new int[num];
         System.out.println("Input elements: " );
