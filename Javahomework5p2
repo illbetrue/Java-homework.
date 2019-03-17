@@ -10,8 +10,7 @@ public class Hometask5p2 {
 
         for ( int i = 0; i < mass1.length; i++ ){
 
-            if ( mass1[i] % 2 != 0 )
-            {
+            if ( mass1[i] % 2 != 0 ){
                 ++n;
                 sum += mass1[i];
                 System.out.println( " " + mass1[i] );
