@@ -6,15 +6,15 @@ import java.util.Scanner;
 
 public class Hometask5p1{
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        System.out.println("Input quantity of elements:" );
+        System.out.println("Input quantity of elements: " );
         int num = s.nextInt();
 
         int a[] = new int[num];
-        System.out.println("Input elements:" );
+        System.out.println("Input elements: " );
         for (int i = 0; i < num; i++) {
-            a[i] = s.nextInt();
+            a[i] = sc.nextInt();
         }
 
         System.out.println("Elements in revers");
